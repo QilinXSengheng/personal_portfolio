@@ -25,19 +25,19 @@ export const Socials = [
   {
     id: `facebook-${Date.now()}`,
     Icon: FaFacebookF,
-    uril: "",
+    uril: "https://web.facebook.com/profile.php?id=100030399891265",
     color: "#1877F2",
   },
   {
     id: `linkedin-${Date.now()}`,
     Icon: FaLinkedinIn,
-    uril: "",
+    uril: "https://www.linkedin.com/in/sengheng-measheanh-283027279/",
     color: "#0072b1",
   },
   {
     id: `github-${Date.now()}`,
     Icon: FaGithub,
-    uril: "",
+    uril: "https://github.com/QilinXSengheng",
     color: "#fff",
   },
   {
