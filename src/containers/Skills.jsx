@@ -15,7 +15,7 @@ const Skills = () => {
           animate={{ opacity: 1, width: 200 }}
           exit={{ opacity: 0, width: 0 }}
           transition={{ delay: 0.4 }}
-          className="flex items-center justify-center w-52 ml-20"
+          className="flex items-center justify-center w-52"
         >
           <img src={Leaf1} className="w-6 h-auto object-contain" alt="" />
           <p className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">

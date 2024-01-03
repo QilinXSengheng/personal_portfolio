@@ -1,6 +1,6 @@
 import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { Leaf1, Leaf2, about } from "../assets";
+import { Leaf1, Leaf2,about } from "../assets";
 
 const About = () => {
   return (
@@ -14,7 +14,7 @@ const About = () => {
           animate={{ opacity: 1, width: 200 }}
           exit={{ opacity: 0, width: 0 }}
           transition={{ delay: 0.4 }}
-          className="flex items-center justify-center w-52 ml-20"
+          className="flex items-center justify-center w-52"
         >
           <img src={Leaf1} className="w-6 h-auto object-contain" alt="" />
           <p className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
@@ -50,12 +50,21 @@ const About = () => {
             of their device. You can contact me whenever you need help, i will
             try my best to deal with your problem as much as possible.
           </p>
-          <p className="text-texlight text-base tracking-wide text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
-            et provident earum dolore id vero? Error maxime tempora velit quas!
-            Itaque, labore deleniti hic voluptas possimus debitis tempore rerum
-            culpa!
-          </p>
+          
+          <a
+            href="/SenghengMeasheanh_CV.pdf"
+            download={true}
+            style={{ boxShadow: "inset 0px 0px 10px rgba(255,255,255,0.3)"}}
+            className="mt-10 border border-[rgba(255,255,255,0.3)] rounded-xl px-8 py-3 active:95 
+          group hover:border-primary"
+          >
+            <p
+              className="text-texlight group-hover:text-transparent 
+            group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-primary group-hover:to-secondary"
+            >
+              Download My CV
+            </p>
+          </a>
         </div>
       </div>
     </section>

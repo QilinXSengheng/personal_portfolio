@@ -9,7 +9,7 @@ const Header = () => {
      flex justify-center items-end lg:items-center pb-8 lg:pb-0 z-50"
     >
       <div
-        className="px-2 py-3 lg:py-10 rounded-full border border-[rgba(255,255,255,0.3)]
+        className="px-3 py-3 lg:py-10 rounded-full border border-[rgba(255,255,255,0.3)]
        flex flex-row lg:flex-col items-center justify-center gap-12 duration-200 backdrop-blur-md"
       >
         {Menus &&

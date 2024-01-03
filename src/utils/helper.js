@@ -40,12 +40,7 @@ export const Socials = [
     uril: "https://github.com/QilinXSengheng",
     color: "#fff",
   },
-  {
-    id: `youtube-${Date.now()}`,
-    Icon: FaYoutube,
-    uril: "",
-    color: "#ff0000",
-  },
+
 ];
 
 export const Menus = [

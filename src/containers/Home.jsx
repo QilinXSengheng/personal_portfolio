@@ -11,17 +11,16 @@ const Home = () => {
       className="flex flex-col items-center justify-center gap-8 relative h-screen overflow-x-hidden" // Added overflow-x-hidden
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full h-auto overflow-x-hidden">
-        {" "}
         {/* Set height to auto and added overflow-x-hidden */}
         <div className="w-full h-full flex flex-col items-center lg:items-start justify-center gap-4">
           <h2 className="text-2xl lg:text-4xl text-texlight text-center lg:text-left">
-            Hello It's me{" "}
+            Hello It's me
             <span className="block tracking-wider text-3xl lg:text-4xl mt-4 text-white">
               Measheanh Sengheng
             </span>
           </h2>
           <h2 className="text-xl lg:text-2xl text-texlight mt-4">
-            And I'm{" "}
+            And I'm
             <HeroTypeWritter
               speed={100}
               words={["a Mobile Developer", " a UX/UI designer"]}
@@ -42,8 +41,8 @@ const Home = () => {
             </AnimatePresence>
           </div>
           <a
-            href="#"
-            style={{ boxShadow: "inset 0px 0px 10px rgba(255,255,255,0.3)"}}
+            href="#contact"
+            style={{ boxShadow: "inset 0px 0px 10px rgba(255,255,255,0.3)" }}
             className="mt-10 border border-[rgba(255,255,255,0.3)] rounded-xl px-8 py-3 active:95 
           group hover:border-primary"
           >
